@@ -1,5 +1,5 @@
 GIT
-  remote: http://github.com/chef/ohai
+  remote: http://github.com/chef/ohai.git
   revision: 5f04ffaf58e6f457a221b23df4ded4024d998e34
   specs:
     ohai (8.23.0)
@@ -81,7 +81,6 @@ PATH
       net-sftp (~> 2.1, >= 2.1.2)
       net-ssh (>= 2.9, < 5.0)
       net-ssh-multi (~> 1.2, >= 1.2.1)
-      ohai (>= 8.6.0.alpha.1, < 13)
       plist (~> 3.2)
       proxifier (~> 1.0)
       rspec-core (~> 3.5)
@@ -111,7 +110,6 @@ PATH
       net-sftp (~> 2.1, >= 2.1.2)
       net-ssh (>= 2.9, < 5.0)
       net-ssh-multi (~> 1.2, >= 1.2.1)
-      ohai (>= 8.6.0.alpha.1, < 13)
       plist (~> 3.2)
       proxifier (~> 1.0)
       rspec-core (~> 3.5)
