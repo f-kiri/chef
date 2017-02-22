@@ -12,7 +12,7 @@ source "https://rubygems.org"
 gem "chef", path: "."
 
 # tracking master of ohai for chef-13.0 development, this should be able to be deleted after relase
-gem "ohai", github: "chef/ohai"
+gem "ohai", git: "http://github.com/chef/ohai"
 
 gem "chef-config", path: File.expand_path("../chef-config", __FILE__) if File.exist?(File.expand_path("../chef-config", __FILE__))
 gem "rake"
