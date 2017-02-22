@@ -1,4 +1,21 @@
 GIT
+  remote: http://github.com/chef/ohai
+  revision: 5f04ffaf58e6f457a221b23df4ded4024d998e34
+  specs:
+    ohai (8.23.0)
+      chef-config (>= 12.5.0.alpha.1, < 14)
+      ffi (~> 1.9)
+      ffi-yajl (~> 2.2)
+      ipaddress
+      mixlib-cli
+      mixlib-config (~> 2.0)
+      mixlib-log (>= 1.7.1, < 2.0)
+      mixlib-shellout (~> 2.0)
+      plist (~> 3.1)
+      systemu (~> 2.6.4)
+      wmi-lite (~> 1.0)
+
+GIT
   remote: https://github.com/chef/chef-server
   revision: e8bdf174e37f907ace7eb148c68f393445396fb6
   specs:
@@ -34,23 +51,6 @@ GIT
       rainbow (>= 2.1)
       rake (>= 10.0)
       retriable (>= 1.4)
-
-GIT
-  remote: https://github.com/chef/ohai.git
-  revision: 5f04ffaf58e6f457a221b23df4ded4024d998e34
-  specs:
-    ohai (8.23.0)
-      chef-config (>= 12.5.0.alpha.1, < 14)
-      ffi (~> 1.9)
-      ffi-yajl (~> 2.2)
-      ipaddress
-      mixlib-cli
-      mixlib-config (~> 2.0)
-      mixlib-log (>= 1.7.1, < 2.0)
-      mixlib-shellout (~> 2.0)
-      plist (~> 3.1)
-      systemu (~> 2.6.4)
-      wmi-lite (~> 1.0)
 
 GIT
   remote: https://github.com/rubysec/bundler-audit.git
